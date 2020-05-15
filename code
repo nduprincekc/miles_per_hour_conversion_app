@@ -1,0 +1,8 @@
+print('Welcome to miles conversion app')
+con = float(input("enter the miles you want to convert in hours: "))
+
+milescon = con * 0.4474
+milescon = round(milescon, 2)
+
+
+print(milescon)
